@@ -1,0 +1,46 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "./Assets/sass/global";
+@import "./Assets/sass/custom.scss";
+@import "./Assets/sass/override";
+@import "./Assets/sass/typography";
+
+@import "./reusableSASS";
+
+@import "./modules/layout/layout";
+
+@import "./Assets/sass/responsive.scss";
+
+//module
+@import "./modules/login/login";
+
+@import "./modules/dashboard/sass/dashboard";
+
+@import "./modules/mybills/sass/billing";
+
+@import "./modules/help&support/sass/helpSupport";
+
+@import "./modules/MyPlan&Usage/sass/myPlanAndUsageSASS";
+@import "./modules//common/common.scss";
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

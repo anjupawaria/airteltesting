@@ -1,0 +1,218 @@
+.white_font {
+  color: #ffffff !important;
+}
+
+hr {
+  opacity: 1.5 !important;
+  color: #ebebeb !important;
+}
+
+.largeText {
+  font-size: 64px;
+  line-height: 72px;
+  font-family: VodafoneLt;
+  color: #333333;
+  font-weight: 400;
+}
+.mediumText {
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 0px;
+  color: #333333;
+  font-weight: 400;
+  font-family: VodafoneLt;
+}
+
+.semiMediumText {
+  font-size: $f-s-28;
+  line-height: 34px;
+  color: #333333;
+  font-family: Vodafone-Regular;
+  font-weight: 700;
+}
+
+.semiMediumLight {
+  font-size: $f-s-28;
+  line-height: 34px;
+  color: #333333;
+  font-family: VodafoneLt;
+  font-weight: 400;
+}
+
+.smallText {
+  line-height: 18px;
+  margin: 0px;
+  font-family: Vodafone-Regular;
+  color: #333333;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.smallText20 {
+  line-height: 20px;
+  margin: 0px;
+  font-family: Vodafone-Regular;
+  color: #333333;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.lightText {
+  color: #333333;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: Vodafone-Regular;
+  margin: 0px;
+}
+
+.smallLightText {
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+  margin: 0px;
+  font-family: Vodafone-Regular;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.BillCardCss {
+  width: 100%;
+  margin: auto;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 6px;
+  border: none !important;
+}
+
+.cardContainer {
+  max-width: 610px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0;
+}
+
+.white_header_bar {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.main-nav {
+  text-decoration: none;
+  color: #666666;
+  font-family: Vodafone-Regular;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 12px;
+  background-color: transparent;
+}
+
+.main-nav:hover {
+  color: #333;
+}
+
+.activeClass {
+  font-family: Vodafone-Regular;
+  font-weight: 700;
+  color: #333333;
+  border-bottom: 2px solid #e60000;
+}
+///////////////////////////// ACCORDIAN USAGE ////////////////////////////////////////////////// 
+.custom_accordian_myPlan_Usage {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 6px;
+  transition: all 600ms ease-in-out;
+
+  .accordingHeading{
+    padding: 20px 16px 20px 25px;
+    border-radius: 6px 6px 0px 0px;
+  }
+
+  .accordian_content{
+    height: 0;
+    opacity: 0; 
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+  }
+
+  .content_padding{
+    padding: 25px;
+  }
+
+  .accordian_content_show{
+    height: 230px;
+    opacity: 1;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+  }
+}
+
+/////////////////////////// TABLE BOOTSTRAP ///////////////////////////////////////////
+
+.bootstrap_table_main{
+  padding: 30px;
+  background-color: #FFFFFF;
+}
+
+
+.table_button{
+  width: 130px;
+  background-color: #E60000;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  height: 35px;
+}
+
+@media only screen and (max-width: 480px) {
+  .largeText {
+    font-size: 40px;
+    line-height: 72px;
+    font-weight: 400;
+  }
+  .mediumText {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .semiMediumText {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .smallText {
+    line-height: 16px;
+    line-height: 22px;
+  }
+
+  .lightText {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  // .smallLightText {
+
+  // }
+
+  // .BillCardCss {
+
+  // }
+
+  // .cardContainer {
+
+  // }
+
+  .custom_accordian_myPlan_Usage {
+    .accordian_content_show{
+      height: 200px;
+    }
+  }
+}
+//////////////////////////////I PAD SCREEN//////////////////////////////////////
+@media only screen and (min-width: 768px) {
+
+}
